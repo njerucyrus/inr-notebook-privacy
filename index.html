@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INR Notebook — Privacy policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0 auto; padding: 40px 20px 80px; max-width: 720px; line-height: 1.6;
+         font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         color: #14181d; background: #ffffff; }
+  h1 { font-size: 2rem; letter-spacing: -.5px; margin-bottom: .2em; }
+  h2 { font-size: 1.25rem; margin-top: 2em; }
+  a { color: #0f6e62; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #dfe4ea; vertical-align: top; }
+  th { font-size: .8rem; text-transform: uppercase; letter-spacing: .6px; color: #5a6675; }
+  code { background: #f1f4f7; padding: 1px 5px; border-radius: 5px; font-size: .9em; }
+  footer { margin-top: 3em; padding-top: 1.2em; border-top: 1px solid #dfe4ea; font-size: .95rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e9eef4; background: #10151c; }
+    a { color: #7fd6c8; }
+    th, td { border-bottom-color: #2c3644; }
+    th { color: #97a4b4; }
+    code { background: #1a212b; }
+    footer { border-top-color: #2c3644; }
+  }
+</style>
+</head>
+<body>
+<h1>Privacy policy — INR Notebook</h1>
+<p><strong>Last updated: 12 September 2026</strong></p>
+<p>INR Notebook is an Android app for people taking warfarin. It keeps your INR results, your clinic's dose instructions, the doses you take and your clinic visits in one place. This policy explains what the app does with that information.</p>
+<h2>The short version</h2>
+<p>Your health records stay on your phone. There is no account and no sign-in, and there is no analytics, advertising or tracking of any kind. We never receive your records.</p>
+<p>Only two things can leave your phone, and only in the ways described below: an encrypted backup copy, if you choose a folder to send it to, and what Google Play needs to handle a subscription.</p>
+<h2>What the app stores, and where</h2>
+<p>INR Notebook keeps the following in its own private storage on your device:</p>
+<ul><li><strong>Health records</strong>: INR results and target ranges, dose instructions from your clinic, the doses you record as taken or missed, clinic visits and appointments, symptoms and notes you type, and the change history of each INR result</li><li><strong>Your details</strong>: anything you choose to enter on the profile and clinic screens, such as your name, date of birth, hospital, file number, reason for taking warfarin and your clinic's contact details</li><li><strong>Meals</strong>: meal plans and the meals you log</li><li><strong>Reminders</strong>: the reminders you turn on and their times</li><li><strong>Documents</strong>: photos and PDFs you attach, such as your warfarin card, copied into the app's storage</li><li><strong>Settings</strong>: theme and notification choices and, if you set an app lock, a salted hash of your PIN (never the PIN itself)</li><li><strong>Subscription status</strong>: the day your free trial started, and whether Google Play last reported an active subscription</li></ul>
+<p>This information is not uploaded to us, not shared with anyone and not sold. We never see it.</p>
+<h2>Backups</h2>
+<ul><li><strong>Daily backup on your phone.</strong> Once a day the app saves everything above into a single encrypted file (AES-256-GCM, with the key held in the Android Keystore). It is kept in the app's storage on the phone.</li><li><strong>Weekly copy to a folder you choose.</strong> If you choose a folder, for example in Google Drive, the newest backup is copied there each week, or when you tap Send now. The file is encrypted before it leaves your phone, so the service holding it cannot read your records. That service keeps the file under its own terms, and it stays there until you delete it.</li><li><strong>Recovery code.</strong> A 64-digit recovery code lets you restore a backup on a new phone. Keep it somewhere safe: we do not have it and cannot recover it for you. The app keeps a copy locked by the Android Keystore, so the weekly copy can run without asking you for it.</li><li><strong>Android's own backup</strong> is switched off for INR Notebook, so Google's device backup does not copy your records.</li></ul>
+<h2>What the app sends over the internet</h2>
+<ul><li><strong>Google Play, for subscriptions.</strong> INR Notebook Premium is sold through Google Play Billing. Google Play takes the payment; the app only learns whether you have an active or pending subscription, and confirms each purchase back to Google Play. We never receive your card, mobile money or other payment details. Google handles purchase information under the <a href="https://play.google.com/about/play-terms/">Google Play Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li><li><strong>The backup copy</strong>, if you choose a folder, through the storage app you picked.</li></ul>
+<p>Nothing else. The app contains no analytics, crash reporting or advertising code, and the published app writes no logs.</p>
+<h2>Sharing your records</h2>
+<p>Only when you choose to. The Export screen creates a PDF, CSV or JSON file on your phone and opens Android's share sheet, so you decide who receives it. Exported files contain your health information, so share them only with people you trust, such as your clinic.</p>
+<h2>Permissions the app asks for</h2>
+<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody>
+<tr><td>Notifications</td><td>Reminders for your warfarin dose, INR tests, clinic appointments, meals and record keeping. A reminder never shows an INR result or a dose amount, and its text is hidden on a locked screen.</td></tr>
+<tr><td>Alarms and reminders</td><td>So a reminder arrives at the minute you set, rather than whenever the phone gets round to it.</td></tr>
+<tr><td>Run at startup</td><td>To set your reminders again after the phone restarts or the app is updated.</td></tr>
+<tr><td>Contacts</td><td>Only to fill in your clinic's details from a contact you pick. The app reads that one contact and nothing else.</td></tr>
+<tr><td>Fingerprint and face unlock</td><td>To open the app with your fingerprint or face, if you turn that on. Android does the check; the app never receives biometric data.</td></tr>
+<tr><td>Vibration</td><td>So a dose reminder can ring like an alarm.</td></tr>
+<tr><td>Internet and network state</td><td>Used by Google Play Billing for the subscription, and to wait for a connection before sending the weekly backup copy.</td></tr>
+<tr><td>Google Play billing</td><td>To offer INR Notebook Premium and check whether you have it.</td></tr>
+<tr><td>Wake lock and foreground service</td><td>Used by Android's job scheduler so the daily backup can finish.</td></tr>
+</tbody></table>
+<p>To attach a photo or a document, the app uses Android's photo and file pickers. They need no permission, and the app receives only the items you pick. The app does not use the camera and does not ask for your location.</p>
+<h2>Keeping your records safe</h2>
+<p>Your records are protected by your phone's own lock screen and storage encryption, by the encryption of every backup and, if you turn it on, by the app lock. Keep your phone locked, and keep your recovery code private.</p>
+<h2>Children</h2>
+<p>INR Notebook is meant for adults managing their own warfarin treatment, or a parent or carer doing it for someone. It is not directed at children under 13, and it sends no personal information to us from anyone, of any age.</p>
+<h2>Deleting your data, and your rights</h2>
+<p>Because your records are on your phone and not with us, you are in control of them:</p>
+<ul><li>Correct or delete any record inside the app, and export a copy at any time.</li><li>Uninstalling INR Notebook deletes everything it stored on the phone, including the daily backups kept there.</li><li>Backup copies in a folder you chose stay there until you delete them.</li><li>Subscription records are held by Google. Manage or cancel a subscription in the Play Store, under Payments and subscriptions.</li></ul>
+<p>We hold no copy of your records, so there is nothing for us to access, correct or delete on your behalf. You can still write to us with any question about your information, including under the Kenya Data Protection Act, 2019.</p>
+<h2>Changes to this policy</h2>
+<p>If the app starts handling information differently, such as a new permission or something sent somewhere new, this policy will be updated before that version is released. The new version will be published at this address, and the date above will change.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:coolnjeru@gmail.com">coolnjeru@gmail.com</a></p>
+<p>See also the <a href="terms.html">terms of use</a>.</p>
+<footer><a href="./">Privacy policy</a> · <a href="terms.html">Terms of use</a></footer>
+</body>
+</html>
