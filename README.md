@@ -4,7 +4,10 @@ The privacy policy and terms of use for the INR Notebook Android app, published 
 
 **Privacy policy:** https://njerucyrus.github.io/inr-notebook-privacy/
 **Terms of use:** https://njerucyrus.github.io/inr-notebook-privacy/terms.html
+**App website:** https://njerucyrus.github.io/inr-notebook-privacy/app/
 
 The app itself lives in a private repository. This one holds these two pages and nothing else, so they can be public without the source being public.
 
 The pages are generated. Their text is kept beside the app in `play-store/privacy-policy.md` and `play-store/terms.md`: edit those, run `python3 play-store/legal_pages.py <path to this repository>`, then commit and push here. Pages redeploys within a minute. Move the "last updated" date whenever the wording changes.
+
+The app website in `app/` is copied from `play-store/website/` in the app repository; its images are made by `play-store/newui_assets.py` from screenshots of the demo build, which holds only made-up records. The privacy policy stays at the root because Google Play links to that address.
