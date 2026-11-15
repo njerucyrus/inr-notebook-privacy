@@ -132,6 +132,16 @@ h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.12; margin: 0 0 12px; fon
 .never svg { flex: none; width: 26px; height: 26px; fill: var(--primary-strong); margin-top: 2px; }
 .never p { margin: 0; }
 
+/* Smart Scan, new in 2.0: the words beside its screenshot */
+.spotlight { background: var(--card); border-radius: var(--radius); padding: 40px; display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr); gap: 36px; align-items: center; }
+.spotlight .eyebrow { background: var(--raised); }
+.spotlight h2 { display: flex; align-items: center; gap: 14px; margin-top: 14px; }
+.scan-icon { flex: none; width: 52px; height: 52px; border-radius: 16px; background: var(--primary); color: var(--on-primary); display: grid; place-items: center; }
+.scan-icon svg { width: 30px; height: 30px; fill: currentColor; }
+.spotlight .free-list { grid-template-columns: 1fr; margin-bottom: 8px; }
+.spotlight .note a { color: var(--primary-strong); font-weight: 700; }
+.spotlight-shot { width: 100%; max-width: 340px; height: auto; justify-self: center; border-radius: var(--radius-sm); display: block; }
+
 /* Premium */
 .premium-panel { background: var(--card); border-radius: var(--radius); padding: 40px; }
 .premium-panel .features { margin: 8px 0 24px; }
@@ -189,6 +199,7 @@ h2 { font-size: clamp(28px, 4vw, 40px); line-height: 1.12; margin: 0 0 12px; fon
   .hero-copy { padding-bottom: 8px; }
   .hero-shot { width: min(320px, 82%); margin-bottom: -120px; }
   .promise { grid-template-columns: 1fr; }
+  .spotlight { grid-template-columns: 1fr; padding: 28px; }
   .features { grid-template-columns: 1fr 1fr; }
   .gallery { grid-template-columns: repeat(9, minmax(220px, 1fr)); overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
   .gallery figure { scroll-snap-align: start; }
